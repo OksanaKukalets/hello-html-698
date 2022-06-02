@@ -5,43 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h2 {color:blueviolet;
+        text-align: center;}
+        button {width: 50px;
+        color: white;
+        background-color: green;}
+        a {color:blue}
+        a:hover {color:brown;}
+        fieldset {border-color: aquamarine;
+        border: 5px;
+        border-radius: 30px;}
+    </style>
 </head>
 <body>
     <!-- <h1>Hello HTML</h1> -->
     <h1>Hello World</h1>
     <h2>CatPhotoApp</h2>
     <main>
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="kitty"/>
-        <a href="https://www.freecatphotoapp.com">cat photos</a>
         <a href="#footer">Jump to Bottom</a>
+        <br>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="kitty"/>
+        <br>
+        <a href="https://www.freecatphotoapp.com">Cat photos</a>
+        <h2>This is text<h2>
         <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
         <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
         <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
         <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
         <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
         <div>
-        <p>Things cats love:</p>
+        <h2>Practice ordered and unordered lists</h2>
+        <p>Things cats <strong>love:</strong></p>
         <ul>
             <li>Milk</li>
             <li>Cheese</li>
             <li>Chicken</li>
           </ul>
-          <p>Top 3 things cats hate:</p>
+          <p>Top 3 things cats <i>hate:</i></p>
         <ol>
             <li>Dogs</li>
             <li>Cold</li>
             <li>Rain</li>
         </ol>
     </div>
+        <h2>Practice creating the form</h2>
+    <fieldset>
         <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-        <input type="text" placeholder="cat photo URL" required>
-            <button type="submit">Submit</button>
+           <p>Where my cat leaves?</p>
             <label><input type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            <br>
+            <p>What is the personality of my cat?</p>
             <label><input type="checkbox" name="personality" value="lazy" checked> Lazy</label>
-    <label><input type="checkbox" name="personality" value="active"> Active</label>
-    <label><input type="checkbox" name="personality" value="sleepy"> Sleepy</label>
+            <label><input type="checkbox" name="personality" value="active"> Active</label>
+            <label><input type="checkbox" name="personality" value="sleepy"> Sleepy</label>
+            <br>
+            <p>Please share the photo of your cat</p>
+            <input type="text" placeholder="cat photo URL" required> <button type="submit">Upload</button>
+            <br>
+            <p>If you are done, please submit the form</p>        
+            <button type="submit">Submit</button>
         </form>
+    </fieldset>
     </main>
     <footer id="footer">Copyright Cat Photo App</footer>
 </body>

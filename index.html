@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h2 {color:blueviolet;
+        h1, h2 {color:blueviolet;
         text-align: center;}
         button {width: 100px;
         color: white;
@@ -15,9 +15,10 @@
         a:hover {color:brown;}
         fieldset {border: 5px solid aquamarine;
         border-radius: 30px;
-        width: 400px;
+        width: 300px;
         height: fit-content;
         margin-bottom: 10px;}
+        footer {font-size: 12px;}
     </style>
 </head>
 <body>
@@ -25,19 +26,18 @@
     <h1>Hello World</h1>
     <h2>CatPhotoApp</h2>
     <main>
-        <a href="#footer">Jump to Bottom</a>
+        <a herf="#text">Jump to text, image, link editing</a><a href="#lists">Jump to ordered and ordered lists</a><a href="#form">Jump to form</a><a href="#footer">Jump to Footer</a>
         <br>
         <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="kitty"/>
         <br>
-        <a href="https://www.freecatphotoapp.com">Cat photos</a>
-        <h2>This is text</h2>
+        <h2 id="text">Practicing text, image, link editing</h2>
         <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
         <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
         <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
         <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
         <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
         <div>
-        <h2>Practice ordered and unordered lists</h2>
+        <h2 id="lists">Practicing ordered and unordered lists</h2>
         <p>Things cats <strong>love:</strong></p>
         <ul>
             <li>Milk</li>
@@ -51,7 +51,7 @@
             <li>Rain</li>
         </ol>
     </div>
-        <h2>Practice creating the form</h2>
+        <h2 id="form">Practicing creating the form</h2>
         <form action="https://www.freecatphotoapp.com/submit-cat-photo">
          <fieldset>
             <legend>A short questionnaire about your cat</legend> 
